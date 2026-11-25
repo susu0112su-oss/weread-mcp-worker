@@ -32,6 +32,3 @@ workers_dev = true
 # 共读数据 KV（已创建，2026-10-08）—— 看板「📖 共读」Tab 的段落数据存这里
 # 换库重建：npx wrangler kv namespace create COREAD_KV
 # ---------------------------------------------------------------------------
-[[kv_namespaces]]
-binding = "COREAD_KV"
-id = "PASTE_YOUR_KV_NAMESPACE_ID"
